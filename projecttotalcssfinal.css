@@ -1,0 +1,1286 @@
+* {
+    margin: 0px;
+}
+
+.spnner{
+   
+    height: 50px;
+    width: 50px;
+    padding-left: 9px;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 280px;
+    background-color: #646363;
+    z-index: 11;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+
+
+/* HEADER PART */
+
+.mainbgcont {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://html.design/demo/restaurant/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.bgcont {
+    width: 92%;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+
+}
+.headss{
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    background-color: rgba(26, 25, 25, 0.952);
+    box-shadow: 3px 3px 3px #474747;
+}
+
+.main {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headerp {
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    font-family: cursive;
+}
+.mainheader{
+    font-family: cursive;
+}
+.foodd{
+    margin-left: 15px;
+    color: #e75b1e;
+    font-family: cursive;
+    padding-left: 120px;
+}
+.subhead{
+    padding-left: 70px;
+    padding-top: -20px;
+}
+
+.logo {
+    padding-left: 30px;
+}
+.main:hover {
+    
+    text-decoration-color: #e75b1e;
+    background-color: rgba(127, 255, 212, 0);
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.booktable{
+    background-color: #e75b1e;
+    padding: 12px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    margin: 200px 0px 200px 600px;
+    border-radius: 10px;
+    position: fixed;
+    top: 330px;
+    left: 520px;
+    z-index: 13;
+}
+
+.booktable:hover{
+    
+    padding: 6px 9px 6px 9px;
+    background-color: rgba(255, 255, 255, 0.932);
+    border: 3px solid #e75b1e;
+    color: black;
+    font-weight: bold;
+    border-bottom: 6px solid #e75b1e;
+}
+
+.headeraa :hover{
+    color: rgb(233, 108, 62) ;
+
+    background-color: rgba(77, 77, 77, 0);
+
+}
+.mainheader {
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    padding: 150px 0px 40px 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.subhead {
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+    font-style: italic;
+}
+
+
+
+.aboutpic {
+    float: right;
+    border-radius: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 5px groove white;
+    margin-right: 0px;
+}
+
+.aboutus {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: monospace;
+    color: darkorange;
+    text-align: center;
+    font-family: cursive;
+
+
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-left: 480px;
+    letter-spacing: 3px;
+}
+
+.para {
+    font-size: 25px;
+    font-weight: 10px;
+    padding-left: 500px;
+    text-indent: 30px;
+    font-family: monospace;
+
+}
+
+.menu {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/various-vegetables-black-table-with-space-message_1220-616.jpg);
+    opacity: 0.907;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.special {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: monospace;
+    color: darkorange;
+    margin-left: 400px;
+    font-family: cursive;
+    letter-spacing: 4px;
+}
+
+.food {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    width: 100%;
+
+}
+
+.pics {
+    height: 400px;
+    width: 330px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.pics:hover {
+    opacity: 0.8;
+}
+
+.menulist {
+    height: 124vh;
+    width: 90%;
+    margin-left: 75px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-vector-western-meal-afternoon-tea-menu-background-image_265487.jpg);
+}
+
+.menufirstimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 43px;
+    margin-top: 65px;
+}
+
+.menusecondimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 78px;
+    padding-top: 65px;
+}
+
+.menuthirdimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 78px;
+    padding-top: 10px;
+}
+
+.menufourthimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.menufifthimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 43px;
+    padding-top: 125px;
+}
+
+.menusixthimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 78px;
+    padding-top: 125px;
+}
+
+.menuseventhimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 78px;
+    padding-top: 125px;
+}
+
+.menueighthimage {
+    height: 280px;
+    width: 220px;
+    margin-left: 80px;
+    padding-top: 125px;
+}
+
+
+
+
+
+/* OUR MENU */
+
+.menubgimg {
+    height: 180vh;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkR2tQtdNT72JyZHGUysioiAFZs10UUs8tc1wTrnGWGy7Xcztf);
+    background-attachment: fixed;
+
+}
+.mainhead {
+    color: darkorange;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: cursive;
+    letter-spacing: 4px;
+}
+
+.mainmain {
+    color: white;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 150px;
+    padding-left: 100px;
+}
+
+.subfirstmain {
+    padding-left: 25px;
+}
+
+.subthirdmain {
+    padding-left: 30px;
+}
+
+.down {
+    padding-left: 5px;
+    margin-top: -15px;
+}
+
+.ldown {
+    margin-top: -15px;
+}
+
+.subfifthmain {
+    padding-left: 30px;
+}
+
+.subsixthmain {
+    margin-left: -30px;
+}
+
+.subseventhmain {
+    margin-left: -20px;
+}
+
+.subeighthmain {
+    margin-left: 0px;
+}
+
+.fifthdown {
+    margin-top: -10px;
+}
+
+.itemnamess {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 115px;
+}
+
+.item2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.item3 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+.mainhead1 {
+    display: flex;
+    margin-left: 450px;
+}
+
+.icon {
+    color: darkgreen;
+    font-size: 60px;
+    margin-right: 30px;
+}
+
+.special {
+    display: flex;
+}
+
+.specialicon {
+    font-size: 60px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+    background-image: url(https://img.freepik.com/free-vector/background-template-design-with-happy-chef-smiling_1308-43129.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+
+
+
+
+/* OUR TEAM PART*/
+*{
+    margin: 0px;
+}
+            .ourteam {
+                height: 140vh;
+                width: 100%;
+                background: url(https://media.istockphoto.com/id/1388791611/photo/teppanyaki-style.jpg?s=612x612&w=0&k=20&c=gNhQXH4awScPV_ZR3GHXm6PKnz4HtjBS8Y5Oqb3Cs50=);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+             
+            }
+            .teamimages{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 100px;
+            }
+            .text{
+                width: 80%;
+                margin-left: 100px;
+            
+             text-align: center;
+             color:white;
+            
+             font-size: 25px;
+             padding:10px;
+            
+            }
+            .text > h5{
+            font-family: cursive;
+            color: #e75b1e;
+            font-weight: bold;
+            font-size: 55px;
+           
+            }
+            .img4{
+                display:grid;
+                flex-direction: row;
+                position: absolute;
+                top:30%;
+                left:100px;
+                justify-content: space-evenly;
+                text-decoration: none;
+                margin:20px;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap:100px;
+        
+            }
+            .img1{
+            grid-area: 1/1/2/2;
+                
+            }
+            .img2{
+                grid-area: 1/2/2/3; 
+                background-color: white;
+                box-shadow: 7px 7px 5px rgb(160, 65, 65);
+            }
+            .img3{
+                grid-area: 1/3/2/4;
+                background-color: white;
+                 box-shadow: 7px 7px 5px rgb(160, 65, 65);
+            }
+            
+           .img1{
+            background-color: white;
+            box-shadow: 7px 7px 5px rgb(160, 65, 65);
+           }
+            
+            .img1 p{
+                text-align: center;
+                font-size: 30px;
+                
+            }
+            .img3 p{
+                text-align: center;
+                font-size: 30px;
+            }
+            .img2 p{
+                text-align: center;
+                font-size: 30px;
+            }
+            h3{
+             text-align: center;
+             width: 290px;
+             height: 150px;
+            }
+            .line{
+                width:300px;
+                height:2px;
+                background-color: black;
+        
+            }
+            .icons{
+                display: flex;
+                flex-direction: row;
+                margin: 10px;
+                justify-content: space-evenly;
+            }
+            .icons i{
+                padding: 5px;
+                border-radius: 50%;
+                background-color: #ffffff;
+                font-size: 25px;
+                border: 2px solid rgb(204, 204, 204);
+            }
+            .row{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-evenly;
+            }
+            .gallery p{
+                text-align: center;
+                font-size: 25px;
+                margin: 0px;
+            }
+            a:hover{
+                background-color: rgb(177, 146, 99);
+            }
+            .hover:hover{
+                background-color: #e75b1e;
+            }
+            .img1:hover{
+                background-color: #e75b1e;
+            }
+            .img2:hover{
+                background-color: #e75b1e;
+            }
+            .img3:hover{
+                background-color: #e75b1e;
+            }
+            .img1 p:hover{
+                background-color: #e75b1e;
+            }
+
+
+
+
+
+
+/* GALLAEY PART */
+
+.gallarypart{
+    width: 100%;
+    height: 300vh;
+    background-color: #474747bd;
+}
+
+.gallery{
+    font-size: 50px;
+    text-align: center;
+    color: darkorange;
+    font-weight: bold;
+    font-family: cursive;
+}
+.parent{
+    height: 130vh;
+    width: 100px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 10px;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+.parent div:hover{
+ 
+    opacity:  0.4;
+}
+.child1{
+  grid-area: 1/1/2/3;
+}
+.child2{
+    grid-area: 1/3/2/4;
+}
+.child7{
+    grid-area: 3/2/4/4;
+}
+.subline{
+    color:black;
+    font-size: 20px;
+    color: darkgreen;
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align:center;
+}
+
+
+
+
+
+
+.Our-Blog{
+    height: 900px;
+    width:100%;
+    background: url(https://html.design/demo/restaurant/images/blog_bg.jpg) no-repeat;
+    background-attachment:fixed;
+    
+}
+.team-heading{
+    
+    font-size: 58px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: darkorange;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    
+}
+.backgroundimage{
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    position:absolute;
+    overflow:auto;
+    gap: 10px;
+}
+
+.team-images{
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    gap: 20px;
+    row-gap: 20px;
+
+}
+.team1{
+    flex-shrink: 2;
+    height: 290px;
+    width: 550px;
+    display: flex;
+    flex:auto;
+    flex-direction: row;
+    background-color: rgb(224, 222, 222);
+    box-shadow:10px  gray;
+    margin: 20px 20px 40px 20px;
+    
+}
+.team2{
+    flex-shrink: 2;
+    height: 290px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+   
+    background-color: rgb(224, 222, 222);
+    
+    box-shadow:10px  gray;
+    margin: 20px 20px 20px 20px;
+}
+.team3{
+    flex-shrink: 2;
+    height: 290px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgb(224, 222, 222);
+    box-shadow:10px  gray;
+    margin: 20px 20px 40px 20px;
+}
+.team4{
+    flex-shrink: 2;
+    height: 290px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(224, 222, 222);
+    box-shadow:10px  gray;
+    margin: 20px 20px 20px 20px;
+}
+.text1{
+    margin: 40px 30px 30px 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    
+}
+.text2{
+    font-size: 20px;
+    margin: 20px 0px 10px 60px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text3{
+    font-size: 20px;
+    margin: 0px 20px 20px 60px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.viewblog{
+   text-align: center;
+    background-color: orangered;
+    margin: 10px 490px 0px 490px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.sideimage:hover{
+    border: 1px solid rgb(194, 191, 191);
+    opacity: 0.4;
+
+}
+.viewblog:hover{
+    border: 3px solid #e75b1e;
+    border-bottom: 5px solid #e75b1e;
+    background-color: rgb(252, 251, 251);
+    color: rgb(37, 37, 37);
+    border-radius: 0px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+/* PRICING PART */ 
+
+.Pricing{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/008/079/335/small/empty-showcase-abstract-pastel-color-background-3d-illustration-free-vector.jpg);
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    background-attachment:fixed;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.Pricinghead{
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'nautilus_pompiliusregular' ;
+    text-align: center;
+    font-weight: bold;
+    color: orangered;
+    margin: 20px;
+    margin-top: 0px;
+}
+.paraa{
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin: 30px;
+}
+
+.conpricing{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.pricecon{
+    height: 606px;
+    width: 320px;
+    
+    border: 2px solid #e75b1e;
+}
+.pricinghead{
+    height: 156px;
+    width: 320px;
+    background-color: #e75b1e;
+}
+.pricecon:hover{
+    box-shadow:currentColor;
+}
+.pricinghead img{
+   margin: 20px 0px 0px 130px;
+}
+.basic{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.money{
+    height: 90px;
+    width: 320px;
+    background-color: rgba(211, 210, 210, 0.644);
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.money h1{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.piricingcodition{
+    height:260px;
+    width: 320;
+    background-color: white;
+}
+.piricingcodition p{
+    margin: 13px 0px 13px 0px;
+    text-align: center;
+    margin-top: 0px 0px 13px 0px;
+    
+    
+}
+.purnow{
+    width: 320px;
+    height: 60px;
+    margin-top: 0px;
+    padding: 10px 0px 8px 0px ;
+    background-color: rgba(211, 210, 210, 0.644);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purnow a{
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 82px 14px 82px ;
+    background-color: #e75b1e;
+}
+
+.purnow a:hover{
+    background-color: white;
+    border: 3px solid #e75b1e;
+    color: black;
+    border-bottom: 6px solid #e75b1e;
+
+}
+
+
+
+
+/* BOOKING PART */
+.bookindpp{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #474747b6;
+    
+}
+.map iframe{
+    height: 75vh;
+    width: 500px;
+    margin: 20px;
+    margin-top: 20px;
+    box-shadow: 6px 6px 4px #474747;
+    
+}
+.Reservations{
+    height: 100vh;
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.bookingfrom1{
+    width: 750px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bookingfrom1 input{
+    height: 34px;
+    width: 317px;
+    gap: 30px;
+    margin: 20px;
+    text-decoration: none;
+    text-decoration: dotted;
+    border: none;
+    border: 2px solid #474747;
+   
+}
+.subnames1{
+    margin-right: 300px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subnames2{
+    margin-right: 280px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subnames3{
+    margin-right: 310px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subnames4{
+    margin-right: 210px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subnames5{
+    margin-right: 280px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subnames6{
+    margin-right: 230px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subnames7{
+    margin-right: 310px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subnames8{
+    margin-right: 270px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submitbutton{
+   color: rgb(250, 248, 248);
+   text-decoration: none;
+   height: 30px;
+   width: 60px;
+   background-color: darkorange;
+   padding: 13px;
+   margin-right: 0px;
+  border-radius: 20px;
+  font-weight: bold;
+  
+}
+.mainhead{
+    color: darkorange;
+    font-size: 50px;
+    font-family: cursive;
+}
+.subline{
+    color: black;
+    font-size: 20px;
+    color: darkgreen;
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.submitbutton:hover{
+    background-color: white;
+    border: 2px solid darkorange;
+    color:rgba(0, 0, 0, 0.781);
+    border-bottom: 5px solid darkorange;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+
+
+
+/* FOOTER PART*/
+
+.footer{
+    height: 130vh;
+}
+.footer-part{
+    height: 200vh;
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.623);
+    
+}
+.fchild1{
+    height: 40px;
+    width: 70px;
+    padding: 30px 10px 30px 600px;
+}
+.fchild2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.fchild2 > div{
+    margin: 50px 20px 50px 30px  ;
+    font-size: 20px;
+    color: white;
+
+    
+
+}
+.fchild2-1{
+    padding-left: 20px;
+    justify-content: space-evenly;
+
+}
+.about1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.697);
+}
+.new1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color:rgba(255,115,0) ;
+    text-align: center;
+   
+    
+
+}
+.us1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: rgb(255, 115, 0);  
+}
+.hours1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: rgb(255, 115, 0);  
+}
+.ftchild1{
+    height: 40px;
+    width: 100%;
+    background-color: #e75b1e;
+    text-align: center;
+    border: 1px dotted rgba(206, 197, 197, 0.678);
+    padding-top: 20px;
+}
+.fchild2-2{
+    
+    padding-left: 10px;
+}
+.fheader1{
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed ;
+    background-image:url(https://html.design/demo/restaurant/images/newsletter-bg.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.new2{
+    font-style: italic;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:rgba(255,255,255);
+    text-align: center;
+    text-transform: capitalize;
+}
+.emailfooter{
+    height: 35px;
+    width: 500px;
+   margin-left: 500px;
+   border-style: groove;
+}
+.new42{
+    color: #e75b1e;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.footer3{
+    height: 60px;
+    width: 234px;
+    background-color: rgba(177, 171, 171, 0.407);
+    margin: 5px;
+    
+
+}
+.tech{
+    font: size 800px; 
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.878);
+    text-transform: capitalize;
+}
+.theme{
+    font: size 800px; 
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.878);
+    text-transform: capitalize; 
+}
+.about1{
+    color: rgb(255, 115, 0);
+}
+
+.fchild2-1 > i{
+   margin: 5px;
+}.footer-part{
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.9);
+    border: 1px dotted white;
+}
+.fchild1{
+    height: 40px;
+    width: 70px;
+    padding: 30px 10px 30px 500px;
+}
+.fchild2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: 70px;
+}
+.fchild2 > div{
+    margin: 50px 20px 50px 30px  ;
+    font-size: 20px;
+    color: white;
+
+    
+
+}
+.fchild2-1{
+    padding-left: 20px;
+    justify-content: space-evenly
+
+}
+.about1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.697);
+}
+.new1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color:rgba(255,115,0) ;
+    text-align: center;
+   
+    
+
+}
+.us1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: rgb(255, 115, 0);  
+}
+.hours1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: rgb(255, 115, 0);  
+}
+.footer2{
+    height: 10vh;
+    width: 100%;
+    background-color: orangered;
+    text-align: center;
+}
+.fchild2-2{
+    
+    padding-left: 10px;
+}
+.fheader1{
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed ;
+    
+    background-image:url(https://cdn.dribbble.com/users/6060112/screenshots/14445923/media/ec252d245b69e3c3455c7613ebf2f282.jpg?resize=400x0) ;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.new2{
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: italic;
+    color:rgb(253, 251, 251);
+    text-align: center;
+    text-transform: capitalize;
+}
+.emailfooter{
+    height: 35px;
+    width: 400px;
+   margin-left: 440px;
+   border-style: groove;
+   border-radius: 4px;
+   border: 2px solid rgb(12, 12, 12);
+}
+.emailfooter:hover{
+    border-radius: 5px;
+    border: 3px solid #e75b1e;
+    border-bottom: 5px solid #e75b1e;
+}
+.fe_link{
+    height: 55px;
+    width: 105px;
+    background-color: #e75b1e;
+    color: white;
+    font-size: 20px;
+    padding: 6px 8px 9px 8px;
+    
+}
+.fe_link:hover{
+    background-color: white;
+    border: 2px solid #e75b1e;
+    border-bottom: 5px solid #e75b1e;
+    color: black;
+}
+.new4{
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: italic;
+    color:rgb(37, 37, 37);
+    text-align: center;
+    text-transform: capitalize; 
+}
+.footer3{
+    height: 30vh;
+    width: 30%;
+    background-color: rgba(177, 171, 171, 0.407);
+    margin: 5px;
+    border-style: groove;
+
+}
+.tech{
+    font: size 800px; 
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.878);
+    text-transform: capitalize;
+}
+.theme{
+    font: size 800px; 
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.878);
+    text-transform: capitalize; 
+}
+.about1{
+    color: rgb(255, 115, 0);
+}
+
+.fchild2-1 > i{
+   margin: 5px;
+}
+
+.footeraddres{
+    display: flex;
+    gap: 20px;
+}
+.footeraddres i{
+    color: #e75b1e;
+}
